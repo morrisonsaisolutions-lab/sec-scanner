@@ -1,6 +1,6 @@
 # sec-scanner
 
-[![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
+[![CI](https://github.com/morrisonsaisolutions-lab/sec-scanner/actions/workflows/ci.yml/badge.svg)](https://github.com/morrisonsaisolutions-lab/sec-scanner/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Read-only checker for PHP runtimes on one Linux machine. It reports patch evidence for CVE-2026-109618 and CVE-2026-109619, and it flags the configuration pattern in PHP's notice for CVE-2026-115560. It does not install packages, edit configuration, restart services, send exploit traffic, or open a network connection.
