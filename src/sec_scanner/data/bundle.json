@@ -1,0 +1,324 @@
+{
+  "bundle_id": "php2shell-2026-10-26",
+  "bundle_version": 1,
+  "cves": {
+    "CVE-2026-109618": {
+      "note": "PHP 8.1 and older have no fixed upstream release in this bundle. A matching vendor rule can still confirm a backport. PHP 8.6 has no stable release in this bundle; php.net said 8.6.0RC4 contains these fixes and is not for production. Pre-releases stay unknown.",
+      "reviewed_on": "2026-10-26",
+      "source_published": "2026-10-21",
+      "source_urls": [
+        "https://www.php.net/archive/2026.php",
+        "https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w"
+      ],
+      "title": "Out-of-memory request-state corruption in PHP request handling.",
+      "upstream_fixed": [
+        {
+          "branch": "8.2",
+          "version": "8.2.35"
+        },
+        {
+          "branch": "8.3",
+          "version": "8.3.36"
+        },
+        {
+          "branch": "8.4",
+          "version": "8.4.27"
+        },
+        {
+          "branch": "8.5",
+          "version": "8.5.12"
+        }
+      ]
+    },
+    "CVE-2026-109619": {
+      "note": "PHP 8.1 and older have no fixed upstream release in this bundle. A matching vendor rule can still confirm a backport. PHP 8.6 has no stable release in this bundle; php.net said 8.6.0RC4 contains these fixes and is not for production. Pre-releases stay unknown.",
+      "reviewed_on": "2026-10-26",
+      "source_published": "2026-10-21",
+      "source_urls": [
+        "https://www.php.net/archive/2026.php",
+        "https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp"
+      ],
+      "title": "Stale worker-global state can be consumed by a later request.",
+      "upstream_fixed": [
+        {
+          "branch": "8.2",
+          "version": "8.2.35"
+        },
+        {
+          "branch": "8.3",
+          "version": "8.3.36"
+        },
+        {
+          "branch": "8.4",
+          "version": "8.4.27"
+        },
+        {
+          "branch": "8.5",
+          "version": "8.5.12"
+        }
+      ]
+    },
+    "CVE-2026-115560": {
+      "note": "As of 2026-10-26 PHP had not published a fixed release or a full advisory. The 23 October and 26 October notices recommend session.upload_progress.enabled=0 until the next regular bugfix release. The 8.2.35, 8.3.36, 8.4.27, and 8.5.12 releases are not treated as a fix for this CVE.",
+      "reviewed_on": "2026-10-26",
+      "source_published": "2026-10-23",
+      "source_urls": [
+        "https://www.php.net/archive/2026.php"
+      ],
+      "title": "Unusual session serializer switch while upload progress stays enabled.",
+      "upstream_fixed": []
+    }
+  },
+  "freshness_window_days": 14,
+  "reviewed_on": "2026-10-26",
+  "vendor_rules": [
+    {
+      "codename": "trusty",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "fixed_version": "5.5.9+dfsg-1ubuntu4.29+esm18",
+      "note": "USN-8948-1 and the Ubuntu CVE pages list this package version.",
+      "os_id": "ubuntu",
+      "reviewed_on": "2026-10-26",
+      "source_package": "php5",
+      "source_published": "2026-10-21",
+      "source_urls": [
+        "https://ubuntu.com/security/notices/USN-8948-1",
+        "https://ubuntu.com/security/CVE-2026-109618",
+        "https://ubuntu.com/security/CVE-2026-109619",
+        "https://ubuntu.com/blog/php2shell-vulnerability-fixes-available"
+      ],
+      "version_id": "14.04",
+      "version_pattern": "ubuntu"
+    },
+    {
+      "codename": "xenial",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "fixed_version": "7.0.33-0ubuntu0.16.04.16+esm22",
+      "note": "USN-8948-1 and the Ubuntu CVE pages list this package version.",
+      "os_id": "ubuntu",
+      "reviewed_on": "2026-10-26",
+      "source_package": "php7.0",
+      "source_published": "2026-10-21",
+      "source_urls": [
+        "https://ubuntu.com/security/notices/USN-8948-1",
+        "https://ubuntu.com/security/CVE-2026-109618",
+        "https://ubuntu.com/security/CVE-2026-109619",
+        "https://ubuntu.com/blog/php2shell-vulnerability-fixes-available"
+      ],
+      "version_id": "16.04",
+      "version_pattern": "ubuntu"
+    },
+    {
+      "codename": "bionic",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "fixed_version": "7.2.24-0ubuntu0.18.04.17+esm14",
+      "note": "USN-8948-1 and the Ubuntu CVE pages list this package version.",
+      "os_id": "ubuntu",
+      "reviewed_on": "2026-10-26",
+      "source_package": "php7.2",
+      "source_published": "2026-10-21",
+      "source_urls": [
+        "https://ubuntu.com/security/notices/USN-8948-1",
+        "https://ubuntu.com/security/CVE-2026-109618",
+        "https://ubuntu.com/security/CVE-2026-109619",
+        "https://ubuntu.com/blog/php2shell-vulnerability-fixes-available"
+      ],
+      "version_id": "18.04",
+      "version_pattern": "ubuntu"
+    },
+    {
+      "codename": "focal",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "fixed_version": "7.4.3-4ubuntu2.29+esm5",
+      "note": "USN-8948-1 and the Ubuntu CVE pages list this package version.",
+      "os_id": "ubuntu",
+      "reviewed_on": "2026-10-26",
+      "source_package": "php7.4",
+      "source_published": "2026-10-21",
+      "source_urls": [
+        "https://ubuntu.com/security/notices/USN-8948-1",
+        "https://ubuntu.com/security/CVE-2026-109618",
+        "https://ubuntu.com/security/CVE-2026-109619",
+        "https://ubuntu.com/blog/php2shell-vulnerability-fixes-available"
+      ],
+      "version_id": "20.04",
+      "version_pattern": "ubuntu"
+    },
+    {
+      "codename": "jammy",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "fixed_version": "8.1.2-1ubuntu2.28",
+      "note": "USN-8948-1 and the Ubuntu CVE pages list this package version.",
+      "os_id": "ubuntu",
+      "reviewed_on": "2026-10-26",
+      "source_package": "php8.1",
+      "source_published": "2026-10-21",
+      "source_urls": [
+        "https://ubuntu.com/security/notices/USN-8948-1",
+        "https://ubuntu.com/security/CVE-2026-109618",
+        "https://ubuntu.com/security/CVE-2026-109619",
+        "https://ubuntu.com/blog/php2shell-vulnerability-fixes-available"
+      ],
+      "version_id": "22.04",
+      "version_pattern": "ubuntu"
+    },
+    {
+      "codename": "noble",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "fixed_version": "8.3.6-0ubuntu0.24.04.13",
+      "note": "USN-8948-1 and the Ubuntu CVE pages list this package version.",
+      "os_id": "ubuntu",
+      "reviewed_on": "2026-10-26",
+      "source_package": "php8.3",
+      "source_published": "2026-10-21",
+      "source_urls": [
+        "https://ubuntu.com/security/notices/USN-8948-1",
+        "https://ubuntu.com/security/CVE-2026-109618",
+        "https://ubuntu.com/security/CVE-2026-109619",
+        "https://ubuntu.com/blog/php2shell-vulnerability-fixes-available"
+      ],
+      "version_id": "24.04",
+      "version_pattern": "ubuntu"
+    },
+    {
+      "codename": "resolute",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "fixed_version": "8.5.4-0ubuntu1.5",
+      "note": "USN-8948-1 and the Ubuntu CVE pages list this package version.",
+      "os_id": "ubuntu",
+      "reviewed_on": "2026-10-26",
+      "source_package": "php8.5",
+      "source_published": "2026-10-21",
+      "source_urls": [
+        "https://ubuntu.com/security/notices/USN-8948-1",
+        "https://ubuntu.com/security/CVE-2026-109618",
+        "https://ubuntu.com/security/CVE-2026-109619",
+        "https://ubuntu.com/blog/php2shell-vulnerability-fixes-available"
+      ],
+      "version_id": "26.04",
+      "version_pattern": "ubuntu"
+    },
+    {
+      "codename": "stonking",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "fixed_version": "8.5.9-0ubuntu2.1",
+      "note": "USN-8948-1 and the Ubuntu CVE pages list this package version.",
+      "os_id": "ubuntu",
+      "reviewed_on": "2026-10-26",
+      "source_package": "php8.5",
+      "source_published": "2026-10-21",
+      "source_urls": [
+        "https://ubuntu.com/security/notices/USN-8948-1",
+        "https://ubuntu.com/security/CVE-2026-109618",
+        "https://ubuntu.com/security/CVE-2026-109619",
+        "https://ubuntu.com/blog/php2shell-vulnerability-fixes-available"
+      ],
+      "version_id": "26.10",
+      "version_pattern": "ubuntu"
+    },
+    {
+      "codename": "bookworm",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "fixed_version": "8.2.35-1~deb12u1",
+      "note": "Debian security tracker lists the same fixed version for both CVEs.",
+      "os_id": "debian",
+      "reviewed_on": "2026-10-26",
+      "source_package": "php8.2",
+      "source_published": "2026-10-21",
+      "source_urls": [
+        "https://security-tracker.debian.org/tracker/CVE-2026-109618",
+        "https://security-tracker.debian.org/tracker/CVE-2026-109619",
+        "https://security-tracker.debian.org/tracker/DLA-4848-1"
+      ],
+      "version_id": "12",
+      "version_pattern": "debian-release"
+    },
+    {
+      "codename": "trixie",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "fixed_version": "8.4.27-1~deb13u1",
+      "note": "Debian security tracker lists the same fixed version for both CVEs.",
+      "os_id": "debian",
+      "reviewed_on": "2026-10-26",
+      "source_package": "php8.4",
+      "source_published": "2026-10-21",
+      "source_urls": [
+        "https://security-tracker.debian.org/tracker/CVE-2026-109618",
+        "https://security-tracker.debian.org/tracker/CVE-2026-109619",
+        "https://security-tracker.debian.org/tracker/DSA-6574-1"
+      ],
+      "version_id": "13",
+      "version_pattern": "debian-release"
+    },
+    {
+      "codename": "forky",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "fixed_version": "8.4.27-1",
+      "note": "Debian security tracker lists the same fixed version for both CVEs.",
+      "os_id": "debian",
+      "reviewed_on": "2026-10-26",
+      "source_package": "php8.4",
+      "source_published": "2026-10-21",
+      "source_urls": [
+        "https://security-tracker.debian.org/tracker/CVE-2026-109618",
+        "https://security-tracker.debian.org/tracker/CVE-2026-109619",
+        "https://security-tracker.debian.org/tracker/CVE-2026-109618"
+      ],
+      "version_id": "",
+      "version_pattern": "debian-unstable"
+    },
+    {
+      "codename": "sid",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "fixed_version": "8.4.27-1",
+      "note": "Debian security tracker lists the same fixed version for both CVEs.",
+      "os_id": "debian",
+      "reviewed_on": "2026-10-26",
+      "source_package": "php8.4",
+      "source_published": "2026-10-21",
+      "source_urls": [
+        "https://security-tracker.debian.org/tracker/CVE-2026-109618",
+        "https://security-tracker.debian.org/tracker/CVE-2026-109619",
+        "https://security-tracker.debian.org/tracker/CVE-2026-109618"
+      ],
+      "version_id": "",
+      "version_pattern": "debian-unstable"
+    }
+  ]
+}

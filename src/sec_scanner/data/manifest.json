@@ -1,0 +1,23 @@
+{
+  "files": {
+    "__init__.py": "96add88fc3007914f9bea2230a66991d8678bb93112386e3623324d657bc10e5",
+    "__main__.py": "1503d4de818ffe11dd1e435a3c928c288c29bb3b8fd85ed37bc960f6d9886829",
+    "advisory.py": "a6541f862ddeb06ae40af1ca7b37728ffd32d62facce0d998600abe600a7d7aa",
+    "advisory_rules.py": "5dc5a546df446970f454ad0756307bb0da327149393afdec7d695edaa2243df8",
+    "assess.py": "170f0c30456e5cfcd62041dfb07dc77c0a5e192dd0ef0c3fecc6c43142426de2",
+    "cli.py": "b2a4afd4d9aac9e88db87629ab84718c1600ab8f7fa759f4edee65b10708ffd0",
+    "compare.py": "3c6f280c0fde1c314414a59a4136279f228ccebea3ea6b2e95ef65bc32ce1458",
+    "config_review.py": "3667d1dcf6d18d0a4629aad9d1f30c03ea17910981d8195cde4f25fd0aa8b676",
+    "data/bundle.json": "0649c111578ba4798a0238e6b7518a061bd151e3c8261ad03db48a348f69a45e",
+    "data/bundle.sig": "0d634f5919cfe59ef53a03c5078b3f02ba8e27242c873fdf7cbbd55955f8b95d",
+    "data/public_key.pem": "f66887cd8bb5e2dd51a16dd285cbe2fdc75ee8ac59e5b79098d4820a62b28355",
+    "debian_version.py": "42d8743f45fd22262022761b514b41785804be2956aa8ed229d65a042947b4a5",
+    "discover.py": "b5e44f7e42126050cfdb4c15daefd82ead4fe7b5e28f7d4aff22b7cf594769ae",
+    "errors.py": "ae7c50eda3bf2f65b855be1f6c01fcefe32914ad1449b5f2e2073e4e9da1a52c",
+    "guidance.py": "81ad05055a7b9a5aa09d5d16d1147cdb045edf934286e321be22a0b38a8a156b",
+    "models.py": "b8a03da61be3ae88f13b9d9fc099573bb7b35f1cac762c196a591d0e0ba14d90",
+    "py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "report.py": "1228fc955c3a7e0cd6fa85e22bf75ea8239b49e11a1cb80d30f09f91c8c00fe4",
+    "scan.py": "cd00167ae4337456803e54b218cd3abb211d5eb1c473793ece62a2d244414473"
+  }
+}
